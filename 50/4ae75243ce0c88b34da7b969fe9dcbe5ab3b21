@@ -1,0 +1,21 @@
+src/quest-risk.js
+  s_4f2bd80279e230::t_2b1f27b5566a40 1-15
+test/quest-risk.test.js
+  s_4f2bd80279e230::t_c99d63b83869bc 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "504ae75243ce0c88b34da7b969fe9dcbe5ab3b21",
+  "prompts": {},
+  "sessions": {
+    "s_4f2bd80279e230": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f8a5d-5b52-77f3-8178-6cf82fbfe9a9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

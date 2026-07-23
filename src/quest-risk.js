@@ -5,7 +5,7 @@
  * @returns {"low" | "medium" | "high"}
  */
 export function questRiskLevel(quest) {
-  if (quest.danger >= 9) {
+  if (quest.danger >= 8) {
     return "high";
   }
   if (quest.danger >= 4) {

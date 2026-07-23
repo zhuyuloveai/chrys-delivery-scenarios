@@ -15,3 +15,21 @@ export function streakBonus(events) {
   }
   return total;
 }
+
+export function comboMultiplier(events) {
+  let maxCombo = 0;
+  let currentCombo = 0;
+  for (const event of events) {
+    if (event.combo === true) {
+      currentCombo++;
+      if (currentCombo > maxCombo) maxCombo = currentCombo;
+    } else {
+      currentCombo = 0;
+    }
+  }
+  return 1 + Math.floor(maxCombo / 3) * 0.25;
+}
+
+export function totalScoreWithCombo(events) {
+  return Math.round(baseScore(events) * comboMultiplier(events));
+}

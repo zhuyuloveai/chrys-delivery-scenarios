@@ -1,0 +1,21 @@
+src/scoring.js
+  s_21e2b3a052047c::t_92938a2fed9a88 36-45
+test/scoring.test.js
+  s_21e2b3a052047c::t_cb9160e2ea1d01 4,110-134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "aeceb178c851686d104b3f279a680e9d5d3e5ebd",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

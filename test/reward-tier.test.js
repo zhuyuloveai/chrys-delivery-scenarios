@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { rewardTier } from "../src/reward-tier.js";
+import { rewardTier, describeRewardTier } from "../src/reward-tier.js";
 
 test("rewardTier returns starter for score 0", () => {
   assert.equal(rewardTier(0), "starter");
@@ -32,4 +32,24 @@ test("rewardTier returns legendary for score 100", () => {
 
 test("rewardTier returns legendary for score 999", () => {
   assert.equal(rewardTier(999), "legendary");
+});
+
+test("describeRewardTier labels starter", () => {
+  assert.equal(describeRewardTier("starter"), "Starter tier");
+});
+
+test("describeRewardTier labels common", () => {
+  assert.equal(describeRewardTier("common"), "Common tier");
+});
+
+test("describeRewardTier labels rare", () => {
+  assert.equal(describeRewardTier("rare"), "Rare tier");
+});
+
+test("describeRewardTier labels legendary", () => {
+  assert.equal(describeRewardTier("legendary"), "Legendary tier");
+});
+
+test("describeRewardTier labels unknown tier", () => {
+  assert.equal(describeRewardTier("platinum"), "Unknown tier");
 });

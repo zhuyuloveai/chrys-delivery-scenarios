@@ -13,3 +13,18 @@ export function questRiskLevel(quest) {
   }
   return "low";
 }
+
+/**
+ * Build a risk summary for a quest.
+ *
+ * @param {{ danger: number }} quest
+ * @returns {{ danger: number, level: "low" | "medium" | "high", requires_review: boolean }}
+ */
+export function questRiskSummary(quest) {
+  const level = questRiskLevel(quest);
+  return {
+    danger: Number(quest.danger),
+    level,
+    requires_review: level === "high",
+  };
+}

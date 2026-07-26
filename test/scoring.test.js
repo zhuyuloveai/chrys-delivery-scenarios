@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { baseScore, streakBonus, comboMultiplier, totalScoreWithCombo } from "../src/scoring.js";
+import { baseScore, streakBonus, comboMultiplier, totalScoreWithCombo, scoreSummary } from "../src/scoring.js";
 
 test("baseScore sums event points", () => {
   assert.equal(baseScore([{ points: 10 }, { points: 15 }]), 25);
@@ -106,4 +106,29 @@ test("totalScoreWithCombo multiplies baseScore by 1.5 for 6 consecutive combos",
   const events = Array.from({ length: 6 }, () => ({ points: 10, combo: true }));
   // baseScore = 60, multiplier = 1.5 → 90
   assert.equal(totalScoreWithCombo(events), 90);
+});
+
+test("scoreSummary returns zeros for empty events", () => {
+  assert.deepEqual(scoreSummary([]), {
+    base: 0,
+    streak_bonus: 0,
+    combo_multiplier: 1,
+    total: 0,
+  });
+});
+
+test("scoreSummary combines combo multiplier and streak bonus", () => {
+  const events = [
+    { points: 10, combo: true, streak: true },
+    { points: 10, combo: true, streak: true },
+    { points: 10, combo: true, streak: true },
+  ];
+  // base = 30, combo_multiplier = 1.25, totalScoreWithCombo = round(30 * 1.25) = 38
+  // streak_bonus = 5 + 5 = 10 → total = 48
+  assert.deepEqual(scoreSummary(events), {
+    base: 30,
+    streak_bonus: 10,
+    combo_multiplier: 1.25,
+    total: 48,
+  });
 });

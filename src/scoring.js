@@ -33,3 +33,13 @@ export function comboMultiplier(events) {
 export function totalScoreWithCombo(events) {
   return Math.round(baseScore(events) * comboMultiplier(events));
 }
+
+export function scoreSummary(events) {
+  const streak_bonus = streakBonus(events);
+  return {
+    base: baseScore(events),
+    streak_bonus,
+    combo_multiplier: comboMultiplier(events),
+    total: totalScoreWithCombo(events) + streak_bonus,
+  };
+}

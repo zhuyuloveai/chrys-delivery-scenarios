@@ -1,0 +1,25 @@
+test/manual-unknown-note.test.js
+  s_21e2b3a052047c::t_a8cd23abe6e04c 1-39
+src/manual-unknown-note.js
+  s_21e2b3a052047c::t_a8cd23abe6e04c 1-13
+src/agent-owned-signal.js
+  s_21e2b3a052047c::t_cedf766db3c423 1-8
+test/agent-owned-signal.test.js
+  s_21e2b3a052047c::t_3be22926c9fb63 1-64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "129a619c0177edde79417907fb84ae8fb9037c91",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

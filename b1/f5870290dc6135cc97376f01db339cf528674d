@@ -1,0 +1,21 @@
+src/retry-window.js
+  s_21e2b3a052047c::t_c9296c7ed5de38 1-12
+test/retry-window.test.js
+  s_21e2b3a052047c::t_7fca0261951447 1-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "b1f5870290dc6135cc97376f01db339cf528674d",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

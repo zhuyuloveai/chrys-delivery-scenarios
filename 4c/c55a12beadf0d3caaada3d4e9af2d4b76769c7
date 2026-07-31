@@ -1,0 +1,19 @@
+src/incremental-checkpoint.js
+  s_2788ff9bafbd1b::t_39824fc7701a49 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "4cc55a12beadf0d3caaada3d4e9af2d4b76769c7",
+  "prompts": {},
+  "sessions": {
+    "s_2788ff9bafbd1b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fb60b-010a-7680-a192-a2e7e2944691",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

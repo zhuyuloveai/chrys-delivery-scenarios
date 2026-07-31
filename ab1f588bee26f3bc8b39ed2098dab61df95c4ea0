@@ -1,0 +1,21 @@
+src/session-handoff.js
+  s_21e2b3a052047c::t_32a1632fc9fe49 14-35
+test/session-handoff.test.js
+  s_21e2b3a052047c::t_dfc5288cf66dac 3,97-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "ab1f588bee26f3bc8b39ed2098dab61df95c4ea0",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

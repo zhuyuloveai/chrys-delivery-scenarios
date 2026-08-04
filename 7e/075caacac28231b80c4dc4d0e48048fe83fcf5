@@ -1,0 +1,19 @@
+src/ca01_session_a.py
+  s_34105af6c651e1::t_f246837bb45eb0 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7e075caacac28231b80c4dc4d0e48048fe83fcf5",
+  "prompts": {},
+  "sessions": {
+    "s_34105af6c651e1": {
+      "agent_id": {
+        "tool": "chrys",
+        "id": "a158ac44-6d8b-456b-a172-1a5c3480224c",
+        "model": "unknown"
+      },
+      "human_author": "Chrys user-a <user-a@example.test>"
+    }
+  }
+}

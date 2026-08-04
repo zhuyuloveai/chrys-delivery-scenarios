@@ -1,0 +1,19 @@
+.github/workflows/node-test.yml
+  s_4f2bd80279e230::t_493f8a25996260 1-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "a9e660721b84927b0abb6ad603180881f00782cf",
+  "prompts": {},
+  "sessions": {
+    "s_4f2bd80279e230": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f8a5d-5b52-77f3-8178-6cf82fbfe9a9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

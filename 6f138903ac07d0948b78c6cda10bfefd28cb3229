@@ -1,0 +1,32 @@
+test/agent-human-handoff.test.js
+  s_4ac4cad59fd668::t_d8dc4290d714a4 48-52
+  s_4ac4cad59fd668::t_96524cfb2591d1 44
+  s_4ac4cad59fd668::t_2f488d03bc9d7e 45,47,53,115-145
+  s_4ac4cad59fd668::t_731b062d8635d3 46
+  h_73cfd908b059c1 1-43,54-114,146-171
+src/agent-human-handoff.js
+  h_73cfd908b059c1 1-6,11,13-23,32-46
+  s_4ac4cad59fd668::t_3b1a828a07848d 7-10,12
+  s_4ac4cad59fd668::t_393988b425a9c4 24-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "6f138903ac07d0948b78c6cda10bfefd28cb3229",
+  "prompts": {},
+  "humans": {
+    "h_73cfd908b059c1": {
+      "author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_4ac4cad59fd668": {
+      "agent_id": {
+        "tool": "chrys",
+        "id": "8c2e11c9-3921-4de3-8a24-5066d907d3a3",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": null
+    }
+  }
+}

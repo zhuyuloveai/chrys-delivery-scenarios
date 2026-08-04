@@ -1,0 +1,21 @@
+test/agent-merge-ready.test.js
+  s_bc420945910943::t_6a4ffef4cc66b2 1-125
+src/agent-merge-ready.js
+  s_bc420945910943::t_e777d79b896b2e 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1e1020d6a9e2e5ca091621279399f649e76c05f0",
+  "prompts": {},
+  "sessions": {
+    "s_bc420945910943": {
+      "agent_id": {
+        "tool": "chrys",
+        "id": "4ce156a1-7b6d-4635-b2e1-fc6ddeb62125",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+src/loot-rarity.js
+  s_4f2bd80279e230::t_1d19958d6c47d4 1-6
+test/loot-rarity.test.js
+  s_4f2bd80279e230::t_723081638c1451 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "c1e6a23abb4f1efea2808bc8301a39a6455cf000",
+  "prompts": {},
+  "sessions": {
+    "s_4f2bd80279e230": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f8a5d-5b52-77f3-8178-6cf82fbfe9a9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

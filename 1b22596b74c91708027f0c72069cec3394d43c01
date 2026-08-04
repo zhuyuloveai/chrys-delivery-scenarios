@@ -1,0 +1,21 @@
+src/unmapped-review.js
+  s_21e2b3a052047c::t_063693e43bf9e2 1-10
+test/unmapped-review.test.js
+  s_21e2b3a052047c::t_64c7a20cf679e2 1-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "1b22596b74c91708027f0c72069cec3394d43c01",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

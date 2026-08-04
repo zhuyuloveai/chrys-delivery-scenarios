@@ -1,0 +1,21 @@
+src/cross-repo-feature.js
+  s_21e2b3a052047c::t_37d0f4d22a2c53 4-20
+test/cross-repo-feature.test.js
+  s_21e2b3a052047c::t_6725474a0f5d6c 4-7,15-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "033cb4607e7bfe38740848629b51a5d2b08e4adc",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

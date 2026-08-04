@@ -1,0 +1,21 @@
+src/rebase-merge-plan.js
+  s_21e2b3a052047c::t_c5aeced80eb5d8 1-15
+test/rebase-merge-plan.test.js
+  s_21e2b3a052047c::t_f910de76b657cf 1-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "2cf4c5826b22a8ec9d5b41c0759a87b791b75271",
+  "prompts": {},
+  "sessions": {
+    "s_21e2b3a052047c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9bf0-a8f7-7b02-b4b8-9edb1199c83c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhuyu <zhuyu4010qq@gmail.com>"
+    }
+  }
+}

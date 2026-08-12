@@ -1,0 +1,3 @@
+AI_KEEP = True
+HUMAN_REWRITE = True
+HUMAN_NEW = True
